@@ -1,0 +1,92 @@
+#university_name {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#university_name .title h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #52bfff;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#university_name hr {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: rgba(226, 237, 243, 0.5);
+}
+
+#university_name .uni_img_1 {
+    position: relative;
+    width: 100%;
+    height: 325.2px !important;
+    border-radius: 20px;
+    /* background-image: url('../../images/bg_uni.png'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#university_name .uni_img_1 .uni_img_2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+#university_name .uni_container {
+    padding: 12px;
+    background: #ffffff;
+    box-shadow: 0px 0px 40px rgba(119, 205, 255, 0.3);
+    border-radius: 20px;
+}
+
+#university_name .uni_container .uni_block {
+    position: relative;
+    border: 1px dashed #e2edf3;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#university_name .uni_container .uni_block table {
+    padding-bottom: 20px;
+}
+
+#university_name .uni_container .uni_block table tbody tr {
+    height: 47px;
+    border-style: none !important;
+}
+
+#university_name .uni_container .uni_block .striped > tbody > tr:nth-of-type(odd) {
+    background: #f8fcff !important;
+}
+
+#university_name .uni_container .uni_block table tbody tr td {
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 15px;
+    border: 0;
+}
+
+#university_name .uni_container .uni_block table tbody tr td:nth-of-type(odd) {
+    color: #98b6c9;
+    padding-left: 15px;
+}
+
+#university_name .uni_container .uni_block table tbody tr td:nth-of-type(2n) {
+    font-size: 14px;
+    line-height: 13px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+#university_name .uni_container .uni_block .button_container {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -40px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}

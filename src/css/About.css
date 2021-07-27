@@ -1,0 +1,23 @@
+#aboutus .about-text{
+    color:  #7A7A7A;
+}
+
+.aboutus_theme p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: #52bfff;
+    margin: 40px 0;
+}
+
+@media (max-width: 500px) {
+    #aboutus .second-item{
+        display: none;
+    }
+}
+@media (max-width: 575px) {
+    #aboutus .about-text{
+        font-size: 12px;
+    }
+}

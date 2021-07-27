@@ -1,0 +1,11 @@
+@media (max-width: 992px) {
+    .article__slide .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+   .article__slide .swiper-pagination {
+        display: block;
+    }
+}

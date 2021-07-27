@@ -1,0 +1,182 @@
+#style_question {
+    position: relative !important;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+    z-index: -2 !important;
+}
+
+#style_question .left_image {
+    position: absolute;
+    top: -200px;
+    left: 0;
+    z-index: -1 !important;
+}
+
+#style_question .right_image {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1 !important;
+}
+
+#style_question .title {
+    z-index: 2 !important;
+}
+
+@media (min-width: 900px) {
+    #style_question .left_image {
+        top: 0;
+    }
+
+    #style_question .right_image {
+        display: block;
+    }
+}
+
+#style_question .question_block {
+    max-width: 370px;
+    padding: 12px;
+    background: #ffffff;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    z-index: 2 !important;
+}
+
+#style_question .question_block .question_card {
+    background: #ffffff;
+    border: 1px dashed #e2edf3;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+#style_question h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #52bfff;
+}
+
+#style_question p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #7a7a7a;
+}
+
+#style_question .title {
+    margin-bottom: 70px;
+}
+
+#style_question .question_block .question_card .icon {
+    width: 30px;
+}
+
+#style_question .question_block .question_card h4 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #313131;
+    margin-bottom: 0;
+}
+
+#style_question .question_block .question_card p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #7a7a7a;
+    margin-bottom: 0;
+}
+
+#style_question .question_block .question_card .button_container {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: -90px;
+    left: 0;
+    right: 0;
+}
+
+button.edu_landing_button {
+    width: 244px;
+    height: 52px;
+    border: 0;
+    border-radius: 27px;
+    padding: 2px;
+    background: linear-gradient(180deg, #c3e7fc 50%, #18a1f0 175.48%);
+}
+button.edu_landing_button:hover {
+    box-shadow: 0px 0px 25px rgba(146, 214, 255, 0.5);
+}
+
+button.edu_landing_button .button_block {
+    position: relative;
+    padding-left: 44px;
+    width: 240px;
+    height: 48px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(213.88deg, #b1e2ff -67.78%, #68c7ff 175.48%);
+}
+button.edu_landing_button:hover .button_block {
+    background: linear-gradient(213.88deg, #c6eaff -67.78%, #81d0ff 175.48%);
+}
+button.edu_landing_button:active .button_block {
+    background: linear-gradient(213.88deg, #86d2ff -67.78%, #47bbff 175.48%);
+}
+
+button.edu_landing_button .button_block i {
+    position: absolute;
+    left: 6px;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(322.12deg, #b1e2ff 1.25%, #68c7ff 89.56%);
+    border-radius: 25px;
+}
+button.edu_landing_button:hover .button_block i {
+    background: linear-gradient(50.12deg, #b1e2ff 2.44%, #68c7ff 99.56%);
+}
+button.edu_landing_button:active .button_block i {
+    background: linear-gradient(213.88deg, #86d2ff -67.78%, #47bbff 175.48%);
+    border: 2px solid #86d2ff;
+}
+
+button.edu_landing_button .button_block span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    #style_question .question_block .question_card {
+        padding: 30px;
+    }
+
+    #style_question .question_block .question_card h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #style_question .question_block .question_card p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #style_question .question_block .question_card .button_container {
+        bottom: -40px;
+    }
+}

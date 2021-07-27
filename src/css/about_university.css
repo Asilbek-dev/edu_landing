@@ -1,0 +1,37 @@
+#about_university {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about_university .title h4 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #313131;
+    margin-bottom: 20px;
+} 
+
+#about_university .about_body p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    color: #7A7A7A;
+}
+
+#about_university .about_documentation p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7A7A7A;
+    margin-bottom: 0;
+}
+
+#about_university .about_documentation p i {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+}
+
+#about_university .pt-0 {
+    padding-top: 0 !important;
+}
