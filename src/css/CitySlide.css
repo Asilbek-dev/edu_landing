@@ -52,6 +52,9 @@
     color: #7A7A7A;
     margin-top: 20px;
 }
+.news_about_text p span {
+    margin-left: 20px;
+}
 .similar_news_theme {
     font-weight: bold;
     font-size: 36px;
